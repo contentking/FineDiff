@@ -20,6 +20,13 @@ namespace cogpowered\FineDiff\Parser\Operations;
 
 class Replace implements OperationInterface
 {
+
+	/** @var int */
+	private $fromLen;
+
+	/** @var string */
+	private $text;
+
     /**
      * @param int $fromLen
      * @param string $text

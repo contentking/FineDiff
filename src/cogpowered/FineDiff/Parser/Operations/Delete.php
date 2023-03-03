@@ -23,6 +23,10 @@ namespace cogpowered\FineDiff\Parser\Operations;
  */
 class Delete implements OperationInterface
 {
+
+	/** @var int */
+	private $fromLen;
+
     /**
      * Set the initial length.
      *
